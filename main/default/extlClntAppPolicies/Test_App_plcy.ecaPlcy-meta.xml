@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtlClntAppConfigurablePolicies xmlns="http://soap.sforce.com/2006/04/metadata">
+    <externalClientApplication>Test_App</externalClientApplication>
+    <isEnabled>true</isEnabled>
+    <isOauthPluginEnabled>true</isOauthPluginEnabled>
+    <isSamlPluginEnabled>true</isSamlPluginEnabled>
+    <label>Test_App_plcy</label>
+    <startPage>OAuth</startPage>
+</ExtlClntAppConfigurablePolicies>
