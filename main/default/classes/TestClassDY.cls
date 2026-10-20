@@ -7,11 +7,11 @@ public class TestClassDY implements Database.Batchable<SObject> {
         try {
             Integer i = 7 / 0;
         } catch (Exception e) {
-            for (Integer j = 0; j < 7; j++) {
+            for (Integer j = 0; j < 1; j++) {
                 Triton.log(Triton.t
                     .area(TritonTypes.Area.Accounts)
                     .exception(e)
-                    .level(TritonTypes.Level.FINE));
+                    .level(TritonTypes.Level.ERROR));
             }
             Triton.flush();
         }
